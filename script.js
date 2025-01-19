@@ -12,16 +12,16 @@ class Animal {
 }
 
 class Dog extends Animal {
-	const myDog = new Dog("Golden Retriever");
-myDog.makeSound(); 
-myDog.bark(); 
+	  bark() {
+    console.log("woof");
+  }
 	
 }
 
 class Cat extends Animal {
-	const myCat = new Cat("Siamese");
-myCat.makeSound(); 
-myCat.purr(); 
+	 purr() {
+    console.log("purr");
+  }
 }
 
 // Do not change the code below this line
